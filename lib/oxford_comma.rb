@@ -11,6 +11,6 @@ def oxford_comma(array)
     #tail = arr_last.last
     array.insert(-1," and ")
     #array.push(tail)
-    array.join(",")
+    array.join(", ")
   end
 end
