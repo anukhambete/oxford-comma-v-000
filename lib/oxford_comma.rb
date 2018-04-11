@@ -10,6 +10,6 @@ def oxford_comma(array)
     tail = arr_last.last
     array.pop
     array.push(tail)
-  
+    array.join(",")
   end
 end
