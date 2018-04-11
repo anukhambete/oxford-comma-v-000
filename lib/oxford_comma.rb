@@ -9,6 +9,7 @@ def oxford_comma(array)
     arr_last.unshift("and ")       # add "and " as 0th index to new array 
     
     array.insert(-2,arr_last.join("")) #join the elements of new array (and + fruit) and insert at 2nd last position in main array
+    
     array.pop
     array.join(", ")
   end
