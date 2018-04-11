@@ -7,7 +7,8 @@ def oxford_comma(array)
     arr_last = array.last
     arr_last.unshift(" and ")
     arr_last.join("")
+    tail = arr_last.last
     array.pop
-    
+  
   end
 end
